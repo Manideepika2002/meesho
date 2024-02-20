@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+
+}
+#nav{
+    /* border: 2px solid; */
+    height: 70px;
+}
+#sub-nav{
+    /* border: 2px solid aqua; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+
+}
+#left-nav ol{
+    margin-top: 10px;
+    /* border: 2px solid;    */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 45%;
+    height: inherit;
+}
+#left-nav ol li+li{
+    border: 1px solid rgb(134, 123, 123);
+    width: 70%;
+    height: 40px;
+    font-size: 16px;
+    opacity: 0.5;
+    padding-top: 10px;
+    /* text-align: center; */
+   
+}
+
+#right-nav{
+    /* border: 2px solid aqua; */
+    margin-left: 50%;
+    /* display: absolute;
+    margin-top: 1px; */
+    margin-top: -35px;
+    width: 50%;
+}
+#right-nav ol{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+#nav1{
+    border: 1px solid rgb(185, 179, 179);
+    height: 50px;
+}
+#sub-nav1{
+    /* border: 2px solid aqua; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+}
+#sub-nav1 ol{
+    /* border: 2px solid;    */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    height: inherit;
+    background-color: #fff;
+    
+}
+.card-title{
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+}
+#delivery{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 50px;
+    
+    
+}
+#delivery div{
+    /* border: 2px solid; */
+    margin-top: -35px;
+    margin-left: 35px;
+    
+}
+.card-body{
+    border: 2px solid;
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 100%;
+    background-color:rgb(247, 245, 251);
+}
+.col-md-4{
+    margin-left: 710px;
+    margin-top: -50%;
+}
+.card mb-3{
+    border: 2px solid red;
+}
